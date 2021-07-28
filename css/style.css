@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200&display=swap');
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-fundo {
+    height: 100vh;
+}
+
+.bg-menu {
+    background-color: #202020;
+}
+
+#mylogo {
+    width: 2.5rem;
+}
+
+.distancia {
+    width: 10rem;
+}
+
+.carousel-caption h2 {
+  margin-bottom: 4rem;
+  font-size: 4rem;
+}
+
+#tit {
+  margin-bottom: 4rem;
+  font-size: 4rem;
+}
+
+.carousel-caption>p {
+  margin-bottom: 4rem;
+  font-size: 1.5rem;
+}
+
+.carousel-caption>a {
+  margin-bottom: 7rem;
+}
+
+.btn-special {
+    color: #fff;
+    border-color: #fff;
+    border-width: 0.15rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+}
+
+.btn-special:hover {
+  background-color: #fff;
+  color: black;
+  border-color: #fff;
+  border-width: 0.15rem;
+  border-radius: 1rem;
+  box-shadow: none;
+}
+
+.nav-link:hover {
+  color: #d2dae2 !important;
+}
+
+#tit {
+  font-size: 2.5rem;
+}
+
+#paragraph {
+  font-size: 1.2rem;
+  margin-top: 0.8rem;
+  font-weight: bolder;
+}
+
+.bg-personal {
+  background-color: #2C3A47;
+}
+
+.myicon {
+  font-size: 2.5rem;
+}
+
+#zzz {
+  font-weight: bolder;
+}
+
+#rights {
+  font-size: 0.8rem;
+}
+
+#espaco {
+  margin-top: 5rem;
+}
+
+.btn-tamaluco {
+  background-color: #202020;
+  color: #fff;
+  border-color: #2f3542;
+  border-width: 0.10rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.btn-tamaluco:hover {
+background-color: #00d2d3;
+color: #fff;
+border-color: #57606fde;
+border-width: 0.10rem;
+border-radius: 0.5rem;
+box-shadow: none;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.oi {
+  text-align: center;
+  margin-top: -1.5rem;
+}
+
+.texto-cartao {
+  font-size: 0.8rem;
+}
+
+.tile {
+  font-weight: bold;
+  color: #00d2d3;
+}
+
+.stranger {
+  font-weight: bold;
+}
+
+.sobre {
+  font-size: 2.5rem;
+}
+
+.lado {
+  margin-left: 9rem;
+}
+
+.delado {
+  margin-right: 9rem;
+}
+
+#coloracao {
+  background-color: #202020;
+  height: 0.1rem;
+  justify-content: center;
+}
+
+
+/* Dispositivos extra small - xs (telefones em modo retrato, com menos de 576px) */
+@media (max-width: 575.98px) {
+    .exemplo{
+        font-size: 2rem;
+    }
+
+    h2 {
+      margin-bottom: 0rem;
+  }
+  
+  .carousel-caption>p {
+      margin-bottom: 0rem;
+    }
+  
+  .carousel-caption>a {
+      margin-bottom: 0rem;
+    }
+
+}
+
+/* Dispositivos small - sm (telefones em modo paisagem, com menos de 768px) */
+@media (max-width: 767.98px) {
+    
+}
+
+/* Dispositivos médios - md (tablets com menos de 992px) */
+@media (max-width: 991.98px) {
+  
+}
+
+/* Dispositivos large - lg (desktops com menos de 1200px) */
+@media (max-width: 1199.98px) {
+  
+}
