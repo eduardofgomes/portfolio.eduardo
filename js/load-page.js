@@ -13,7 +13,19 @@ $(document).ready(function(){//executar a leitura do documento e preparou uma fu
     switch(pagina){
       case 'instagram':
         $('.modal-title').append('Meu Instagram')
-        $('.modal-body').append('<p>Instagram.......</p>')
+        $('.modal-body').append(`
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-sm-4 col-md-4">
+                <img src="img/gestao.webp" alt="projetos" class="img-fluid">
+              </div>
+              <div class="col-12 col-sm-8 col-md-8">
+                <h4 class="text-center text-danger">Meus Projetos</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.   Nisi      fugiat quos excepturi error laborum optio deserunt  soluta officiis at     quidem, cumque harum quasi ducimus, quod  culpa aut, repudiandae     asperiores similique!</p>
+              </div>
+            </div>
+          </div>
+        `)
         break
       case 'facebook':
         $('.modal-title').append('Meu Facebook')
